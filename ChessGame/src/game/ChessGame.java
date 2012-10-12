@@ -22,7 +22,7 @@ public class ChessGame extends JFrame implements MouseListener,
 	private static int _row;
 	private static int _col;
 	private JPanel _main;
-	
+	private JButton _button;
 	public ChessGame(int row, int col){
 
 		
