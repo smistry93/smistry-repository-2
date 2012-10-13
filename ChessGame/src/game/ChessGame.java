@@ -22,17 +22,10 @@ public class ChessGame extends JFrame implements MouseListener,
 	private static int _row;
 	private static int _col;
 	private JPanel _main;
-	private int _example;
-	private int _change;
-	private int _idk;
+
+
 	public ChessGame(int row, int col){
 
-		int example = 0;
-		int change = -3;
-		int idk = 2;
-		_example = example;
-		_change = change;
-		_idk = idk;
 		Dimension boardSize = new Dimension(600, 600);
 		JLayeredPane layeredPane = new JLayeredPane();
 		getContentPane().add(layeredPane);
